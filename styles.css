@@ -1,0 +1,108 @@
+/*
+Challenge:
+Style the app according to the provided design.
+The font is called "Happy Monkey" and can be
+embedded via Google Fonts.
+
+Don't know how to make an image round? Google it!
+Also, consider how you should select the image 
+(class vs id vs element selector).
+*/
+body{
+    text-align:center;
+    font-family: "Happy Monkey", system-ui;
+    color : white;
+    background: linear-gradient(#031927,#BA1200)
+}
+
+h1,h2,h3,h4,p {
+    text-shadow: 0px 0px 1px black;
+}
+
+#birthdayPic{
+    width : 150px;
+    border-radius: 50%;
+    border : 8px solid #47B697;
+}
+
+#bday-age{
+    background:#47B697 ;
+    padding : 5px 10px;
+    border-radius : 5px;
+    margin: 5px 0px 10px 0px;
+    
+    
+}
+
+#bday-date{
+    margin : 0;
+    background:#47B697 ;
+    padding : 5px 10px;
+    border-radius : 5px;
+    
+}
+
+#header{
+    display: flex;
+    flex-direction: column;
+    align-items : center;
+}
+.gift-section{
+    display: flex;
+    flex-direction: column;
+    align-items : center;
+    margin-top : 50px;
+}
+
+.giftheading1{
+
+}
+.giftheading2{
+    margin:0px 0px 10px 0;
+}
+
+.giftimage1{
+    width: 400px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url("images/NewGift_Cover.jpg");
+    background-size: cover;
+    height : 400px;
+    margin : 0px auto ;
+
+}
+#gimage1:hover{
+ background-image: url("images/SillyHappy.webp");
+}
+
+#gimage2:hover{
+    background-image: url("images/grandEntrance.webp");
+   }
+
+#gimage3:hover{
+    background-image: url("images/legend.webp");
+    background-size:contain;
+   }
+
+#gimage4:hover{
+    background-image: url("images/wwe.webp");
+   }
+
+.giftsize {
+    height: 300px;
+    background-size: cover;
+}
+#gimage5:hover{
+    background-image: url("images/hiphop.webp");
+   }
+
+.footer{
+    Margin : 50px auto 20px auto;
+    width : 400px;
+    font-style:italic;
+}
+
+a{
+    color: white;
+}
+
